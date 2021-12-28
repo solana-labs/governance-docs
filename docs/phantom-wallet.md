@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
-# How to Select a network in Phantom Wallet
+# How to use Devnet in Phantom Wallet
 
 1. In the Phantom wallet, click the gear icon in the bottom right,
 

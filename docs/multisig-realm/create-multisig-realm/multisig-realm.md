@@ -22,9 +22,9 @@ So, let's create a multisig realm together.
 
 2. **Name your realm**
 
-![multisiformname](/img/multisig-realm/multisig-name.png)
+![multisigformname](/img/multisig-realm/multisig-name.png)
 
-3. **Select the minimum percentage of `yes votes` to approve a proposal**
+3. **Select the minimum percentage of `yes votes` to approve a proposal. The default is 60%**
 
 ![multisigquorum](/img/multisig-realm/multisig-quorum.png)
 
@@ -32,15 +32,18 @@ So, let's create a multisig realm together.
    ![teamplusbtn](/img/multisig-realm/team-plus-btn.png)
    button to add wallets to your team.**
 
+:::tip
+Note that you can place as many wallets you want, one per line.
+:::
+
 ![multisigteam](/img/multisig-realm/multisig-team.png)
 
 :::danger Remember
 The current connected wallet is required. If it is not automatically included in the members list, include it or the transaction will result in an error.
 :::
-After following this steps, you should have something like the image below:
-
+**After following this steps, you should have something like the image below:**
 ![multisigteam](/img/multisig-realm/multisig-form.png)
 
-5. **Then just click create. Your wallet will pop up twice asking for signatures. The first is to create and mint the tokens and the second, to deploy the realm.**
+**Then just click create. Your wallet will pop up twice asking for signatures. The first is to create and mint the tokens and the second, to deploy the realm.**
 
 After the transaction is complete, you'll be redirected to the realm's page.
