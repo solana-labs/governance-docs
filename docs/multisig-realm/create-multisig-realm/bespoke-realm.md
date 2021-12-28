@@ -2,4 +2,4 @@
 sidebar_position: 3
 ---
 
-# Create a Multisig Realm
+# Create a Bespoke Realm
