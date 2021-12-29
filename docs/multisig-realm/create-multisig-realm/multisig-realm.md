@@ -44,6 +44,6 @@ The current connected wallet is required. If it is not automatically included in
 **After following this steps, you should have something like the image below:**
 ![multisigteam](/img/multisig-realm/multisig-form.png)
 
-**Then just click create. Your wallet will pop up twice asking for signatures. The first is to create and mint the tokens and the second, to deploy the realm.**
+**Then just click create, your wallet will pop up asking for signature. Approve to create the tokens and deploy the realm.**
 
 After the transaction is complete, you'll be redirected to the realm's page.
