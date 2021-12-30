@@ -46,7 +46,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'multisig-realm/get-started',
             position: 'left',
             label: 'Tutorial',
           },
