@@ -23,8 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/solana-labs/governance-docs/blob/master/",
+          editUrl: "https://github.com/solana-labs/governance-docs/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
