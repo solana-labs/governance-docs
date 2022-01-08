@@ -23,8 +23,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
           editUrl:
-            "https://github.com/solana-labs/governance-docs/blob/master/",
+            "https://github.com/solana-labs/governance-ui/edit/main/docs/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -50,7 +51,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/solana-labs/governance-docs",
+            href: "https://github.com/solana-labs/governance-ui",
             label: "GitHub",
             position: "right",
           },
@@ -81,7 +82,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/solana-labs/governance-docs",
+                href: "https://github.com/solana-labs/governance-ui",
               },
             ],
           },
