@@ -2,15 +2,15 @@
 sidebar_position: 3
 ---
 
-# What is a Multisig Realm?
+# What is a Multisig DAO?
 
-To understand what a __Multisig Realm__ is we first need to know what a __DAO__ is.
+To understand what a __Multisig DAO__ is we first need to know what a __DAO__ is.
 
 According to the [official documentation](https://ethereum.org/en/dao/), a DAO is a Decentralized Autonomous Organization or, in simpler words: __an organization that manages itself without a center piece__. DAOs are an effective and safe way to work with countless folks around the globe. The governance of a DAO is given by the distribution of voting tokens (council votes and community votes) that are used to express the supporters opinion about an organization decision, being that decision to hire a new developer, rise a salary, mint community tokens, and so on.
 
 Instead of a closed governance model just like a traditional organization where only the top management can vote, the DAOs are much more fair to the ones who cares about their services, allowing them to chose between decisions and also make proposals to organizations having the voters as their only blockers.
 
- A _Realm_ is analogous to a _DAO_ in many aspects but let's take a look in the main differences between a common DAO and a Solana Realm:
+ A _DAO_ is analogous to a _DAO_ in many aspects but let's take a look in the main differences between a common DAO and a Solana DAO:
 
- - A Solana Realm is fully on-chain governed, so it is not necessary to use a third party service like Snapshot.
+ - A Solana DAO is fully on-chain governed, so it is not necessary to use a third party service like Snapshot.
  - 

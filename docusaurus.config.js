@@ -38,15 +38,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "SPL Governance UI",
+        title: "Governance UI",
         logo: {
-          alt: "SPL Governance UI",
+          alt: "Governance UI",
           src: "img/solana-logo.svg",
         },
         items: [
           {
             type: "doc",
-            docId: "multisig-realm/get-started",
+            docId: "multisig-DAO/get-started",
             position: "left",
             label: "Tutorial",
           },
