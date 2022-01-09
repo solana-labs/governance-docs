@@ -6,7 +6,7 @@ sidebar_position: 6
 
 ![multisigbespoke](/img/multisig-DAO/treasuryAccount/vaults.png)
 
-What is treasury account ? treasury account can be treated like a vault holding specified token managed by dao.
+What is treasury account ? treasury account can be treated like a vault holding specified token managed by DAO.
 
 ---
 
@@ -38,16 +38,16 @@ If you want your treasury account to hold tokens you need to fill mint address o
 
 ### Step 3: Proposal settings
 
-**Min community tokens to create proposal:** Is minimal amount of your DAO community tokens you want someone to have to have ability to create proposals related to your treasury account for example: Proposal to transfer USDC from your DAO treasuary to someone wallet as payment for his service.
+**Min community tokens to create proposal:** Is minimal amount of your DAO community tokens you want someone to have to have ability to create proposals related to your treasury account for example: Proposal to transfer USDC from your DAO treasury to someone wallet as payment for his service.
 
 **Min instruction hold up time (days):** Is minimal amount of days before you can execute proposal instructions after the vote on proposal ends.
 
 **Max voting time (days):** This field is simply amount of days which will decide for how many days your DAO can vote on proposals.
 
-**Yes vote treshold (%):** Is percentage of approvals that your DAO need to approve proposal for example: if you have 10 people inside your DAO and you set this field to 60% you need at least 6 people to approve your proposal
+**Yes vote threshold (%):** Is percentage of approvals that your DAO need to approve proposal for example: if you have 10 people inside your DAO and you set this field to 60% you need at least 6 people to approve your proposal
 
 ### Step 4: Proposal settings
 
-After filling all field click create and new treasury account will be visibile at the main page of your DAO
+After filling all field click create and new treasury account will be visible at the main page of your DAO
 
 ![multisigbespoke](/img/multisig-DAO/treasuryAccount/usdc.png)
