@@ -49,5 +49,3 @@ If you want your treasury account to hold tokens you need to fill mint address o
 ### Step 4: Proposal settings
 
 After filling all field click create and new treasury account will be visible at the main page of your DAO
-
-![multisigbespoke](/img/multisig-DAO/treasuryAccount/usdc.png)
