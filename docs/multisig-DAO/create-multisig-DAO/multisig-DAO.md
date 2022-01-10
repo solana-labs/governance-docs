@@ -20,6 +20,10 @@ So, let's create a multisig DAO together.
 
 ![multisiformempty](/img/multisig-DAO/multisig-form-empty.png)
 
+:::tip
+Checking `Create a test DAO` will make your DAO be linked to a test Program ID instead of the default one.
+:::
+
 2. **Name your DAO**
 
 ![multisigformname](/img/multisig-DAO/multisig-name.png)
