@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Solana Governance UI Docs",
+  tagline: "Solana GOvernance UI Documentation",
+  url: "https://docs.realms.today",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Solana-labs", // Usually your GitHub org/user name.
+  projectName: "governance-docs", // Usually your repo name.
 
   presets: [
     [
@@ -25,7 +25,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           editUrl:
-            "https://github.com/solana-labs/governance-ui/edit/main/docs/",
+            "https://github.com/solana-labs/governance-docs/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -51,7 +51,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/solana-labs/governance-ui",
+            href: "https://github.com/solana-labs/governance-docs/",
             label: "GitHub",
             position: "right",
           },
