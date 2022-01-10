@@ -2,50 +2,63 @@
 sidebar_position: 6
 ---
 
-# Treasury Account
+# Treasury Accounts
 
-![multisigbespoke](/img/multisig-DAO/treasuryAccount/vaults.png)
+Treasury account is a shared wallet which holds assets
+owned by a DAO. Each DAO can have any number of treasury accounts
+holding different assets. Anybody can deposit tokens into treasury accounts
+but only the DAO members can ever approve withdrawals through treasury transfer proposals.
 
-What is treasury account ? treasury account can be treated like a vault holding specified token managed by DAO.
-
+![multisigbespoke](/img/treasuryAccount/vaults.png)
 ---
 
-## Creating the treasury account
+## Creating Treasury Account
 
-To start you should click plus icon in the right corner of treasury account component
+To start select the plus button ![multisigbespoke](/img/treasuryAccount/add_treasury.png) in the right corner of the Treasury View
 
-![multisigbespoke](/img/multisig-DAO/treasuryAccount/vaults.png)
+![multisigbespoke](/img/treasuryAccount/vaults.png)
 
-### Step 1: NFT treasury
+### Token Treasury
 
-If you want your treasury account to hold NFTs you only need to click on nft treasury switch and skip to step 3
+If you want your treasury account to hold tokens (ex. USDC) you have to provide the token address (aka mint address) of the token you need.
 
-![multisigbespoke](/img/multisig-DAO/treasuryAccount/nft.png)
+**Common token addresses**
 
-### Step 2: Token Treasury: Mint
+**USDC:**  `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`
 
-If you want your treasury account to hold tokens you need to fill mint address of the token you want to hold inside, mint address is address of given coin.
+**wSOL:** `So11111111111111111111111111111111111111112`
 
-**All well known coins can be find throughout solana exploler:** https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+![multisigbespoke](/img/treasuryAccount/usdc.png)
 
-**Mostly used coins addresses**
 
-**USDC:** EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
 
-**WSol:** So11111111111111111111111111111111111111112
+### NFT treasury
 
-![multisigbespoke](/img/multisig-DAO/treasuryAccount/usdc.png)
+If you want your treasury account to hold NFTs then choose the `NFT Treasury` option
 
-### Step 3: Proposal settings
+![multisigbespoke](/img/treasuryAccount/nft.png)
 
-**Min community tokens to create proposal:** Is minimal amount of your DAO community tokens you want someone to have to have ability to create proposals related to your treasury account for example: Proposal to transfer USDC from your DAO treasury to someone wallet as payment for his service.
+### Treasury Governance Settings
 
-**Min instruction hold up time (days):** Is minimal amount of days before you can execute proposal instructions after the vote on proposal ends.
+**Min community tokens to create proposal:** The minimal amount of the DAO community governance tokens
+a member of the DAO has to own to be allowed to propose transfers from the treasury.  
 
-**Max voting time (days):** This field is simply amount of days which will decide for how many days your DAO can vote on proposals.
+:::tip
+For Multisig DAOs without the community governance token this value is irrelevant and we default it
+to arbitrary number of `1,000,000`
+:::
 
-**Yes vote threshold (%):** Is percentage of approvals that your DAO need to approve proposal for example: if you have 10 people inside your DAO and you set this field to 60% you need at least 6 people to approve your proposal
+**Min instruction hold up time (days):** The minimal number of days before you can transfer funds from the treasury after a vote on the transfer proposal is approved.
 
-### Step 4: Proposal settings
+:::tip
+The delay for treasuries is usually set to `0` to allow transfers of the assets immediately after they are approved
+:::
 
-After filling all field click create and new treasury account will be visible at the main page of your DAO
+**Max voting time (days):** The maximum number of days the DAO can vote on the treasury proposals.
+If consensus is not reached by the end of the voting time the proposal is defeated.
+
+**Yes vote threshold (%):** The Yes vote threshold defines the number of Approve votes required to approve a transfer from a treasury account.  
+For example if there are 10 members in the DAO and the Yes threshold is set to 60% then at least 6 members must approve any transfers from the treasury.
+
+
+After providing all the details press the `Create` button and the new treasury account will created and accessible from the main page of your DAO
