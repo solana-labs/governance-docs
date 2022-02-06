@@ -20,7 +20,7 @@ With your governance setup plan in hand, you should fill the form as follows. Th
 
 In the first step, you'll need to fill the basic configuration for your DAO
 
-![multisigbespoke](/img/multisig-DAO/multisig-bespoke-empty.png)
+![multisigbespoke](/img/multisig-DAO/multisig-bespoke-empty2.png)
 
 1. **Name your DAO:** Choose the name for your DAO but bear in mind that if you choose a name that already exists, the transaction will fail.
 
@@ -45,11 +45,7 @@ Checking `Use Test Instance` will change the program id to `GTesTBiEWE32WHXXE2S4
 
 ![multisigbespokegov](/img/multisig-DAO/multisig-bespoke-govtoken.png)
 
-6. **Lastly, the `Governance program version`** that represents the version of the governance program. If you're using the default instance then at the time of writing the version of the deployed program is 1.
-
-![multisigbespokeversion](/img/multisig-DAO/multisig-bespoke-programversion.png)
-
-7. **Click next to proceed to the [next step](#step-2-the-council)**.
+6. **Click next to proceed to the [next step](#step-2-the-council)**.
 
 ---
 
