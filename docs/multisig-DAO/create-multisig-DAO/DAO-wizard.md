@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # DAO Wizard
 
-You have two ways to create a multisig DAO, the simple and the advanced. The simple way, you don't need to worry about governance tokens, governance programs and other details, because the platform will generate everything for you. The advanced way, you'll need to provide all the necessary information that is abstracted in the simple form. To perform this operation, we'll use a DAO Wizard that guides you to the necessary steps depending on the options you choose. So, let's take a look in both cases.
+You have two ways to create a multisig DAO, the simple and the advanced. With the simple way, you don't need to worry about governance tokens, governance programs and other details, because the platform will generate everything for you. With the advanced way, you'll need to provide all the necessary information that is abstracted in the simple form. To perform this operation, we'll use a DAO Wizard that guides you to the necessary steps depending on the options you choose. So, let's take a look at both cases.
 
 ### Before starting
 
