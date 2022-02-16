@@ -23,6 +23,8 @@ Then, your wallet will pop up asking to connect to the app. Click connect and yo
 
 ![connectwallet](/img/multisig-DAO/connect-wallet.png)
 
+### DAO Wizard Page
+
 The DAO Wizard is a feature to help you with the setup of your DAO. It will guide you through the necessary steps to create a new DAO.
 In the wizard page, it's possible to choose between two options:
 
