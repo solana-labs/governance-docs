@@ -16,6 +16,10 @@ So, let's create a multisig DAO together.
 
 ---
 
+## Creating the DAO
+
+### Multisig DAO setup
+
 1. **Click on `I want to create a multisig DAO` option and the following form will be shown:**
 
 ![multisiformempty](/img/multisig-DAO/multisig-form-empty.png)
@@ -45,6 +49,9 @@ Note that you can place as many wallets you want, one per line.
 :::danger Remember
 The current connected wallet is required. If it is not automatically included in the members list, include it or the transaction will result in an error.
 :::
+
+### Check & Create
+
 **After following this steps, you should have something like the image below:**
 ![multisigteam](/img/multisig-DAO/multisig-form.png)
 
