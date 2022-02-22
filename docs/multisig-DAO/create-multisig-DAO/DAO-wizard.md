@@ -9,7 +9,12 @@ You have two ways to create a multisig DAO, the simple and the advanced. The sim
 ### Before starting
 
 The first thing to do is to go to the [Official GUI](https://realms.today) and be sure that you have [Phantom](https://phantom.app/) installed on your browser.
-After this step, you need to choose if you want to use the `devnet` or the `mainnet`. Unfortunately, the Phantom wallet doesn't allow us to sync the networks yet, so you'll need to do it manually. If you want to use the `devnet`, add `?cluster=devnet` to the url.
+After this step, you need to choose if you want to use the `devnet` or the `mainnet`. 
+
+If you'd like to select `devnet`, connect your wallet and press the `devnet` toggle.
+![devnetToggle](/img/tutorial/devnet-toggle.png)
+
+Alternatively, if you'd like to use `devnet` without connecting a wallet, add `?cluster=devnet` to the url.
 
 > So the url becomes: `https://realms.today?cluster=devnet`.
 
