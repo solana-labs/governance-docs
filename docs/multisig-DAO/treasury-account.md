@@ -12,11 +12,19 @@ but only the DAO members can ever approve withdrawals through treasury transfer 
 ![multisigbespoke](/img/treasuryAccount/vaults.png)
 ---
 
-## Creating Treasury Account
+## Creating Treasury Accounts
 
 To start select the plus button ![multisigbespoke](/img/treasuryAccount/add_treasury.png) in the right corner of the Treasury View
 
 ![multisigbespoke](/img/treasuryAccount/vaults.png)
+
+From there, you can create one of the following types of treasury accounts
+- SOL
+- NFT
+- Token
+
+### SOL Treasury
+![multisigbespoke](/img/treasuryAccount/sol.png)
 
 ### Token Treasury
 
