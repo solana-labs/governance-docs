@@ -26,6 +26,22 @@ From there, you can create one of the following types of treasury accounts
 ### SOL Treasury
 ![multisigbespoke](/img/treasuryAccount/sol.png)
 
+To add SOL to this treasury, click on your treasury account
+![multisigbespoke](/img/treasuryAccount/treasury_account.png)
+
+From there you'll have options such as depositing, withdrawing, or staking. We'll be depositing for this example
+![multisigbespoke](/img/treasuryAccount/deposit_withdraw_stake.png)
+
+You'll then be taken to the treasury's account address
+![multisigbespoke](/img/treasuryAccount/deposit_account_address.png)
+
+
+For the next step we'll be stepping out of Realms and to your wallet of choice (Phantom shown)
+![multisigbespoke](/img/treasuryAccount/phantom_send.png)
+
+Lastly just enter the treasury's account address from earlier and the amount of SOL you wish to depositphan
+![multisigbespoke](/img/treasuryAccount/phantom_deposit.png)
+
 ### Token Treasury
 
 If you want your treasury account to hold tokens (ex. USDC) you have to provide the token address (aka mint address) of the token you need.
