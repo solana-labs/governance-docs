@@ -26,8 +26,6 @@ If you want your treasury account to hold tokens (ex. USDC) you have to provide 
 
 **USDC:**  `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`
 
-**wSOL:** `So11111111111111111111111111111111111111112`
-
 ![multisigbespoke](/img/treasuryAccount/usdc.png)
 
 
