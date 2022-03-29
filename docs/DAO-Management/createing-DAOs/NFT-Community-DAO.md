@@ -111,3 +111,14 @@ Both **`Community voter weight addin`** and **`Community max voter weight addin`
 the NFT Voting Plugin Program Id `GnftV5kLjd67tvHpNGyodwWveEKivz3ZWvvE3Z4xi2iw`
 
 ![enable-NFT-voting-plugin](/img/NFT-Community-DAO/enable-NFT-voting-plugin.png)
+
+
+
+## Voting with NFTs
+
+Once the proposal to enable the NFT Voting Plugin for the DAO is executed any owner of an NFT from the configured
+collection can participate in the DAO governance.
+
+The NFTs eligible for governance are displayed in the account view.
+
+![your-NFTs.png](/img/NFT-Community-DAO/your-NFTs.png)
