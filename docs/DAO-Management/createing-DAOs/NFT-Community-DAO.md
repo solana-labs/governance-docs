@@ -34,8 +34,8 @@ It's recommended for the authority to be transferred to the DAO.
 
 ## Create DAO
 
-If you have your DAO already created you can skip this section,
-but please note the DAO parameters needed for the setup and adjust your DAO configuration accordingly.
+If you have your DAO already created you can skip this section.
+However please take note of the DAO parameters needed for the setup and adjust your DAO configuration accordingly.
 
 In order to create the NFT Community DAO use the [Bespoke DAO Wizard](bespoke-DAO.md) with the following parameters:
 
@@ -52,9 +52,9 @@ If the plugin is enabled for older versions it can result in irreversible deadlo
 **`Council`** - Setup a DAO with the council.
 
 :::tip
-It's recommended to setup the council as a Multisig for the initial DAO members.
+It's recommended to always setup the council as a Multisig for the initial DAO members.
 The members would be able to moderate the DAO governance process at its inception and prevent
-any irreversible actions like setting impossible quorums or defending the DAO from governance attacks.  
+irreversible actions like setting impossible quorums or defending the DAO from governance attacks.  
 After successful decentralization the council can be removed thorough a proposal.
 :::
 
