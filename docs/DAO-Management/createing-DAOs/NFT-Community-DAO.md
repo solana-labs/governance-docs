@@ -58,10 +58,10 @@ any irreversible actions like setting impossible quorums or defending the DAO fr
 After successful decentralization the council can be removed thorough a proposal.
 :::
 
-## Configure and enable NFT Voting Plugin
+## Configure NFT Voting Plugin
 
 In order to configure the NFT Plugin a proposal with the following 3 instructions must be created.  
-The proposal must be created for the governance with realm authority.
+Note: The proposal must be created for the governance with realm authority.
 
 1. Create NFT plugin registrar
 
@@ -95,3 +95,19 @@ The collection ID can be found on the NFT explorer view. For example for [SMB NF
 
 ![smb-633-explorer-view](/img/NFT-Community-DAO/smb-633-explorer-view.png)
 :::
+
+## Enable NFT Voting Plugin
+
+Once the NFT voting plugin configuration proposal is voted on and all instructions executed the DAO can enable NFT governance
+through a `DAO Config Change` proposal.
+
+From the DAO parameters page select `Change Config` option 
+
+![DAO-config-change](/img/NFT-Community-DAO/DAO-config-change.png)
+
+And then set the DAO configuration parameters
+
+Both **`Community voter weight addin`** and **`Community max voter weight addin`** parameters should be set to 
+the NFT Voting Plugin Program Id `GnftV5kLjd67tvHpNGyodwWveEKivz3ZWvvE3Z4xi2iw`
+
+![enable-NFT-voting-plugin](/img/NFT-Community-DAO/enable-NFT-voting-plugin.png)
