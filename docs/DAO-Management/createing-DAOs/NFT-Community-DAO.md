@@ -119,6 +119,8 @@ the NFT Voting Plugin Program Id `GnftV5kLjd67tvHpNGyodwWveEKivz3ZWvvE3Z4xi2iw`
 Once the proposal to enable the NFT Voting Plugin for the DAO is executed any owner of an NFT from the configured
 collection can participate in the DAO governance.
 
-The NFTs eligible for governance are displayed in the account view.
+The NFTs eligible for governance are displayed in the account view.  
 
 ![your-NFTs.png](/img/NFT-Community-DAO/your-NFTs.png)
+
+Note: Before you can vote in the DAO you have to register your wallet with the DAO.
