@@ -46,7 +46,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "multisig-DAO/get-started",
+            docId: "DAO-Management/get-started",
             position: "left",
             label: "Tutorial",
           },
