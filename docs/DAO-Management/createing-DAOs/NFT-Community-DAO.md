@@ -57,3 +57,41 @@ The members would be able to moderate the DAO governance process at its inceptio
 any irreversible actions like setting impossible quorums or defending the DAO from governance attacks.  
 After successful decentralization the council can be removed thorough a proposal.
 :::
+
+## Configure and enable NFT Voting Plugin
+
+In order to configure the NFT Plugin a proposal with the following 3 instructions must be created.  
+The proposal must be created for the governance with realm authority.
+
+1. Create NFT plugin registrar
+
+![create-NFT-plugin-registrar](/img/NFT-Community-DAO/create-NFT-plugin-registrar.png)
+
+2. Create NFT plugin max voter weight
+
+![create-NFT-plugin-max-voter-weight](/img/NFT-Community-DAO/create-NFT-plugin-max-voter-weight.png)
+
+3. Configure NFT plugin collection
+
+![configure-NFT-plugin-collection](/img/NFT-Community-DAO/configure-NFT-plugin-collection.png)
+
+The NFT collection configuration instruction must be added for every NFT collection which should be allowed
+to participate in governance of the DAO.  
+
+Each NFT collection has the following parameters:
+
+**`Collection size`** - The number of certified NFTs in the collection. The size of the collection is
+used to calculate the maximum voter weight and voting quorum levels.
+
+**`Collection weight`** - The relative voting weight of the NFTs from the collection.  
+In multi collection setup it allows to
+assign different voting weights to different NFTs and create multi NFT / multi tier governance setup.
+For a single collection it should be set to 1
+
+**`Collection`** - The Id of the NFT collection which should be used for governance.  
+
+:::tip
+The collection ID can be found on the NFT explorer view. For example for [SMB NFT](https://explorer.solana.com/address/Fckuc1pnqQxsMMa3R8Smccz2iS5YQBeos7pG7xV4B1Ma) the  collection id is `SMBH3wF6baUj6JWtzYvqcKuj2XCKWDqQxzspY12xPND`
+
+![smb-633-explorer-view](/img/NFT-Community-DAO/smb-633-explorer-view.png)
+:::
