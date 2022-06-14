@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Solana Governance UI Docs",
-  tagline: "Solana GOvernance UI Documentation",
+  tagline: "Solana Governance UI Documentation",
   url: "https://docs.realms.today",
   baseUrl: "/",
   onBrokenLinks: "throw",
