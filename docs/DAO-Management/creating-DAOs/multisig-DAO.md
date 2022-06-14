@@ -8,11 +8,11 @@ sidebar_position: 2
 
 The multisig option is the first and easiest way to create a DAO. When you select this option you only need to worry about three things:
 
-1. The name of your DAO;
-2. The approval quorum, that is the minimum amount of yes votes to accept a proposal; and
-3. People who'll be part of your team, whose will own a council token.
+1. The name of your DAO
+2. The approval quorum (the minimum amount of yes votes to accept a proposal)
+3. People who will be part of your team (these will own council tokens)
 
-So, let's create a multisig DAO together.
+Let's create a multisig DAO together.
 
 ---
 
@@ -20,8 +20,8 @@ So, let's create a multisig DAO together.
 
 ![multisiformempty](/img/multisig-DAO/multisig-form-empty.png)
 
-:::tip
-Checking `Create a test DAO` will make your DAO be linked to a test Program ID instead of the default one.
+:::tip Test DAO
+Toggling `Create a test DAO` will link your DAO to a test Program ID instead of the default Program ID.
 :::
 
 2. **Name your DAO**
@@ -32,12 +32,12 @@ Checking `Create a test DAO` will make your DAO be linked to a test Program ID i
 
 ![multisigquorum](/img/multisig-DAO/multisig-quorum.png)
 
-4. **And click on the
+1. **Add team member wallets by clicking on the
    ![teamplusbtn](/img/multisig-DAO/team-plus-btn.png)
-   button to add wallets to your team.**
+   button.**
 
-:::tip
-Note that you can place as many wallets you want, one per line.
+:::tip Adding team wallets
+Note that you can add as many wallets you want, one per line.
 :::
 
 ![multisigteam](/img/multisig-DAO/multisig-team.png)
@@ -45,9 +45,9 @@ Note that you can place as many wallets you want, one per line.
 :::danger Remember
 The current connected wallet is required. If it is not automatically included in the members list, include it or the transaction will result in an error.
 :::
-**After following this steps, you should have something like the image below:**
+**After following these steps, you should have something like the image below:**
 ![multisigteam](/img/multisig-DAO/multisig-form.png)
 
-**Then just click create, your wallet will pop up asking for signature. Approve to create the tokens and deploy the DAO.**
+**Click `Create` and your wallet will pop up asking for your signature. Approve the transaction to create the tokens and deploy your multisig DAO.**
 
 After the transaction is complete, you'll be redirected to the DAO's page.
