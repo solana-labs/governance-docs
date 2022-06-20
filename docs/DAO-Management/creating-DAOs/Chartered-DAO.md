@@ -30,7 +30,7 @@ Open mainnet-beta.json
 
 Include your projects information in the format below to the end
 
- {
+{
 
     "symbol": "SOLI",
 
@@ -46,7 +46,7 @@ Include your projects information in the format below to the end
 
     "twitter": "@Amun"
 
-  }
+  } 
 
 
 Sign up for Vercel.com using your Github account Info
