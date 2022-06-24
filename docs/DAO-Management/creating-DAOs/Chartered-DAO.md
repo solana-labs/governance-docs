@@ -4,27 +4,21 @@ sidebar_position: 6
 
 # Charter Your DAO
 
-![fork](docs/DAO-Management/creating-DAOs/CharteredDAOpics/fork.png)
+
 
 Fork Solana-labs/Governance-ui
 
 ---
 
 
-![public](docs/DAO-Management/creating-DAOs/CharteredDAOpics/public.png)
-![public](docs/DAO-Management/creating-DAOs/CharteredDAOpics/public2.png)
-
 Go to the public/realms folder
 
 ---
 
-![logo](docs/DAO-Management/creating-DAOs/CharteredDAOpics/logo.png)
 
 Add a your DAO logo in a folder/file in this directory
 
 ---
-
-![mainnet](docs/DAO-Management/creating-DAOs/CharteredDAOpics/json.png)
 
 Open mainnet-beta.json
 
