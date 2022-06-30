@@ -52,7 +52,7 @@ const config = {
           },
           {
             href: "https://github.com/solana-labs/governance-docs/",
-            label: "GitHub",
+            label: "Docs GitHub",
             position: "right",
           },
         ],
