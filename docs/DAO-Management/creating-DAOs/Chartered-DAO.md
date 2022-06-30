@@ -58,5 +58,3 @@ Sign up for Vercel.com using your Github account Info
 Create a pull request to commit your changes to Solana-labs/Governance-ui
 
 
-'@sebastionBor' on Discord and let him know
-
