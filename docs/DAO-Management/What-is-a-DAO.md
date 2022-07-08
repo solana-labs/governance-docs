@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # What is a DAO?
 
-A decentralized autonomous organization (DAO) is a blockchain-based organization that is often governed by a token. Realms can use SPL (Solana Program Library) tokens or NFTs (Non-fungible tokens) as a form of governance. Anyone who purchases and holds these tokens/NFTs gains the ability to vote on important matters directly related to the DAO. DAOs use smart contracts in place of traditional corporate structures to coordinate efforts.
+At its simplest, a decentralized autonomous organization (DAO) is a community with a shared bank account. Members of the DAO make decisions in a transparent and decentralized fashion, with smart contracts executing these decisions.
 
-DAOs control reserve capital in a joint treasury to reach objectives. Users can put up proposals, such as the spending of the treasury or a new business plan. The structure can be set up to incentivize community growth or other success metrics.
+For instance, a member can create a proposal suggesting an investment of the treasury or a program upgrade. The DAO members then come together to vote on the proposal. If a predefined quorum votes for the proposal to pass, the proposal is accepted and and executed by a smart contract.
+
+As a result, the DAO structure provides a “flat” organizational structure. Each DAO member has a voice in the community and the opportunity to drive the direction of the organization.
