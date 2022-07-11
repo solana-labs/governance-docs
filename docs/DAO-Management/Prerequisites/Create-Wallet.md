@@ -4,6 +4,7 @@ sidebar_position: 1
 
 # Create a Solana wallet
 
-In order to create a DAO on Solana or Realms, you need to have a Solana wallet. Realms is compatible with Phantom, Torus, Glow, Solflare, Sollet.io
+Below are links on information for creating a wallet for the ones Realms currently supports
 
-![test](https://user-images.githubusercontent.com/22420711/178032919-b43e77ee-2d5e-42a9-979c-52500ebc6bd0.png)
+[Phantom](https://help.phantom.app/hc/en-us/articles/4406388623251-How-to-create-a-new-wallet), [Torus](https://docs.tor.us/), [Glow](https://glow.app/download), [Solflare](https://docs.solflare.com/solflare/getting_started/how-to-create-a-new-wallet), [Sollet.io] (https://docs.projectserum.com/guides/wallet-support/sol-wallet-serum-academy)
+
