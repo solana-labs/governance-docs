@@ -22,6 +22,8 @@ Enter your payment information and you are good to go!
 
 ![IMG_CC6ED7300F51-1](https://user-images.githubusercontent.com/22420711/178376499-577ab13c-add3-4799-8caf-d00c6746b1be.jpeg)
 
-    The first time time you use Moonpay, it could take up to an hour to see the SOL in your wallet. Any subsequent deposits will show in your wallet within minutes.
+:::tip
+The first time time you use Moonpay, it could take up to an hour to see the SOL in your wallet. Any subsequent deposits will show in your wallet within minutes.
+:::
 
 
