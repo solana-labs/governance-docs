@@ -8,7 +8,7 @@ Using Moonpay in Phantom wallet is the most straightforward method for getting S
 
 Open your Phantom wallet and click on Deposit 
 
-![IMG_1096](https://user-images.githubusercontent.com/22420711/178374833-8e820a82-d7cc-4aff-b189-caef6a5aa845.PNG)
+![IMG_1096 2](https://user-images.githubusercontent.com/22420711/178376083-6e2d272e-13be-474b-83c1-1b648df0a8a0.PNG)
 
 Click Buy or Transfer 
 
