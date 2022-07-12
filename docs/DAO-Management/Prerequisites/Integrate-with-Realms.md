@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Integrate with Realms 
+# Connect your wallet
 
-In order to create a DAO on Solana or Realms, you need to have a Solana wallet. Realms is compatible with Phantom, Torus, Glow, Solflare, Sollet.io
+Go to Realms.today and click on the "Connect" button in the top right corner. Navigate to your digital wallet and start building your DAO or performing governance actions.
 
 ![test](https://user-images.githubusercontent.com/22420711/178376637-ce549771-ce64-48b2-b8ba-81e640870b7c.png)
