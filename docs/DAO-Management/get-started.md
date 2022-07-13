@@ -5,7 +5,7 @@ slug: /
 
 # Get Started
 
-This section is related to building a DAO on the Solana network and cover:
+This section is related to building a DAO on the Solana network and covers:
 
 1. What is a DAO?
 2. Creating a DAO
