@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Treasury domain name
+# Treasury Domain Name
 It is possible for a treasury account to have a `.sol` address (eg. `mytreasury.sol`) through [Bonfida](https://naming.bonfida.org/). Anybody can send `.sol` domains to the treasury account. A Bonfida domain points to the current owner of said domain. For more information on solana domains, read [Bonfida's documentation](https://docs.bonfida.org/collection/an-introduction-to-the-solana-name-service).
 
 Note that a domain name must be owned *by the treasury, not the governance itself* to function. Do not transfer ownership of a domain to the governance's pubkey.

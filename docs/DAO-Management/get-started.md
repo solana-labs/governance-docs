@@ -5,16 +5,16 @@ slug: /
 
 # Get Started
 
-This section is related to the Multisig DAO on Solana network, and it'll cover:
+This section is related to building a DAO on the Solana network and covers:
 
-1. What a Multisig DAO is
+1. What is a DAO?
 2. Creating a DAO
 3. Adding members to a DAO after the DAO is created
-4. Managing programs using Multisig upgrade authority
-5. Adding treasury account (Multisig wallet), deposit and send tokens
+4. Treasury Accounts
+5. Treasury Domain Names
 
 :::tip
 After this read, you'll be able to create and manage your own DAO.
 :::
 
-Before continue, bear in mind that you'll need to use a Solana wallet (we recommend [Phantom](https://phantom.app/)) and own [SOL](https://coinmarketcap.com/currencies/solana/). For the convenience, it is possible to use the `devnet` to test if your DAO is performing as it's supposed to.
+You'll need to use a Solana wallet (we recommend [Phantom](https://phantom.app/)) and own [SOL](https://coinmarketcap.com/currencies/solana/). For the convenience, it is possible to use the `devnet` to test if your DAO is performing as it's supposed to.
