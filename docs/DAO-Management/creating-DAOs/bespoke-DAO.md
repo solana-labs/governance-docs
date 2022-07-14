@@ -57,7 +57,7 @@ Input solana addresses to add members to the Community Token DAO
 
 ![multisigformname](https://user-images.githubusercontent.com/22420711/179035734-95c36450-c0c9-416d-9947-a40c715b43fa.png)
 
-**After following this steps, you should have something like the image below:**
+**After following thes steps, you should have something like the image below:**
 
 ![multisigformname](https://user-images.githubusercontent.com/22420711/179036613-8f6431f2-0943-411c-bb73-30c91bd3ee7d.png)
 

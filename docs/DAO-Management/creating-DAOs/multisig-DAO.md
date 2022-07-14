@@ -42,7 +42,7 @@ Input solana addresses to add members to the multisig wallet
 ![multisigquorum](https://user-images.githubusercontent.com/22420711/178866502-70616cea-1564-4237-9541-10602726b98c.png)
 
 
-**After following this steps, you should have something like the image below:**
+**After following these steps, you should have something like the image below:**
 ![multisigteam](https://user-images.githubusercontent.com/22420711/178866847-f6ca16f3-c3c1-491b-9442-70a715cb86f0.png)
 
 **Then just click `Create wallet`, your wallet will pop up asking for signature. Approve to create the tokens and deploy the DAO.**
