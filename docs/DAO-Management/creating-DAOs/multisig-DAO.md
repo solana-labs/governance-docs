@@ -20,7 +20,7 @@ So, let's create a multisig DAO together.
 
 **Click on the 'Multi-Signature Wallet'option**
 
-![multisiformempty] (https://user-images.githubusercontent.com/22420711/178862472-2e64a49c-9a75-4e82-8fd5-3c07f73dd1f0.png)
+![multisiformempty](https://user-images.githubusercontent.com/22420711/178862472-2e64a49c-9a75-4e82-8fd5-3c07f73dd1f0.png)
 
 **Name your wallet**
 
@@ -34,7 +34,7 @@ Realms will provide a governance program ID by default, users can add their own 
 
 Input solana addresses to add members to the multisig wallet
 
-![multisigformname] (https://user-images.githubusercontent.com/22420711/178865759-52d5b47e-1370-4008-972b-4f5d6aa888c6.png)
+![multisigformname](https://user-images.githubusercontent.com/22420711/178865759-52d5b47e-1370-4008-972b-4f5d6aa888c6.png)
 
 
 **Select the minimum percentage of `yes votes` to approve a proposal. The default is 60%**
