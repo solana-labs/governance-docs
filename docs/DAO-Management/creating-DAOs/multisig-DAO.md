@@ -18,7 +18,7 @@ So, let's create a multisig DAO together.
 
 ![multisiformempty](https://user-images.githubusercontent.com/22420711/178862160-75a2bd5a-133e-47a2-a487-9b7ad6f66137.png)
 
-**Click on the 'Multi-Signature Wallet'option**
+**Click on the `Multi-Signature Wallet` option**
 
 ![multisiformempty](https://user-images.githubusercontent.com/22420711/178862472-2e64a49c-9a75-4e82-8fd5-3c07f73dd1f0.png)
 
