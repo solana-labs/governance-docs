@@ -26,7 +26,7 @@ It's recommended for the authority to be transferred to the DAO.
 
 ![multisiformempty](https://user-images.githubusercontent.com/22420711/178862160-75a2bd5a-133e-47a2-a487-9b7ad6f66137.png)
 
-**Click on the `Community Token DAO` option**
+**Click on the `NFT Community DAO` option**
 
 **Name your wallet**
 
