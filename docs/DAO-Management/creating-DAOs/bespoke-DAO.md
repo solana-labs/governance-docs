@@ -31,7 +31,7 @@ Realms will provide a governance program ID by default, users can add their own 
 
 ![multisigformname](https://user-images.githubusercontent.com/22420711/179033113-bfb2f48a-f1c8-403d-9c35-07b3029dbd4c.png)
 
-**Min community tokens to create governance:** this field represents the minimum number of tokens required to by a member to create a governance (e.g. create proposal)
+**Minimum number of community tokens needed to manage this DAO:** this field represents the minimum number of tokens required to by a member to create a governance (e.g. create proposal)
 
 :::tip
 Realms provides the ability to determine the votes needed to pass a proposal by calculating the number of tokens in circulation (instead of using the total Mint supply) , users can do this under Advanced Options at this step in the Community Token DAO wizard.
