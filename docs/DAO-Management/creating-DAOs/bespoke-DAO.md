@@ -29,13 +29,17 @@ Realms will provide a governance program ID by default, users can add their own 
 **Place the `Community Token Mint`** if you have one, and if not, it will be generated for you. The community token mint is the token that will be used by the community to vote on proposals and it is required to create a governance.
     When you put the community token mint, a switch `Transfer Authority` will show up. If checked, it will transfer the authority of the community token to the realm.
 
-**Min community tokens to create governance:** this field represents that to create a governance, there should be at least `N%` of the max supply of the tokens minted, being 1% the default value for tokens with supply bigger than 0. If the supply is 0, then this value will be set to `1000000` by default.
+![multisigformname](https://user-images.githubusercontent.com/22420711/179033113-bfb2f48a-f1c8-403d-9c35-07b3029dbd4c.png)
+
+**Min community tokens to create governance:** this field represents the minimum number of tokens required to by a member to create a governance (e.g. create proposal)
+
+:::tip
+There should be at least `N%` of the max supply of the tokens minted, being 1% the default value for tokens with supply bigger than 0. If the supply is 0, then this value will be set to `1000000` by default.
+:::
 
 :::tip
 Realms provides the ability to determine the votes needed to pass a proposal by calculating the number of tokens in circulation (instead of using the total Mint supply) , users can do this under Advanced Options at this step in the Community Token DAO wizard.
 :::
-
-![multisigformname](https://user-images.githubusercontent.com/22420711/179033113-bfb2f48a-f1c8-403d-9c35-07b3029dbd4c.png)
 
 ![multisigformname](https://user-images.githubusercontent.com/22420711/179033254-4917cd81-c931-40bb-9858-1a01a1cb917e.png)
 

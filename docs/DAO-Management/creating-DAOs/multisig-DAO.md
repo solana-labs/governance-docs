@@ -2,15 +2,15 @@
 sidebar_position: 2
 ---
 
-# Create a Multisig DAO
+# Create a Multisig Wallet
 
-The multisig option is the first and easiest way to create a DAO. When you select this option you only need to worry about three things:
+The multisig option is ane easy way to create a shared wallet. When you select this option you only need to worry about three things:
 
-1. The name of your DAO;
+1. The name of your multisig wallet;
 2. The approval quorum, that is the minimum amount of yes votes to accept a proposal; and
-3. People who'll be part of your team, whose will own a council token.
+3. People who'll be part of your team who will own a council token.
 
-So, let's create a multisig DAO together.
+So, let's create a multisig wallet together.
 
 ---
 
@@ -47,4 +47,4 @@ Input solana addresses to add members to the multisig wallet
 
 **Then just click `Create wallet`, your wallet will pop up asking for signature. Approve to create the tokens and deploy the DAO.**
 
-After the transaction is complete, you'll be redirected to the DAO's page.
+After the transaction is complete, you'll be redirected to the multisig wallet's page.

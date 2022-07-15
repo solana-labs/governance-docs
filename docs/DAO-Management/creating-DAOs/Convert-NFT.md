@@ -32,22 +32,9 @@ It means it has the ultimate power to decide who can and can't vote in the DAO.
 It's recommended for the authority to be transferred to the DAO.
 :::
 
-## Create DAO
+## When to use
 
-If you have your DAO already created you can skip this section.
-However please take note of the DAO parameters needed for the setup and adjust your DAO configuration accordingly.
-
-In order to create the NFT Community DAO use the [Bespoke DAO Wizard](bespoke-DAO.md) with the following parameters:
-
-**`Min community tokens to create proposal`** - Set to 1 to allow each NFT holder to create new governances.
-If more restrictive setup is required the min threshold can be set to a higher value accordingly.
-
-**`Custom program Id`** - Use the default instance of `spl-governance` or an instance with minim version of v2.2.4
-
-:::danger
-spl-governance program version must be equal or higher than v2.2.4 for the NFT plugin to work correctly.
-If the plugin is enabled for older versions it can result in irreversible deadlock of the DAO.
-:::
+Reference thesese docs to convert existing community token DAOs to NFT community DAOs
 
 **`Council`** - Setup a DAO with the council.
 
