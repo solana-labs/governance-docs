@@ -101,4 +101,4 @@ The NFTs eligible for governance are displayed in the account view.
 
 ![your-NFTs.png](/img/NFT-Community-DAO/your-NFTs.png)
 
-Note: Before you can vote in the DAO you have to register your wallet with the DAO.
+Note: Before you can vote in the DAO you have to register your wallet with the DAO. Visit this step by step tutorial here https://www.youtube.com/watch?v=yIAwmuE74dI&t=73s
