@@ -34,16 +34,7 @@ It's recommended for the authority to be transferred to the DAO.
 
 ## When to use
 
-Reference thesese docs to convert existing community token DAOs to NFT community DAOs
-
-**`Council`** - Setup a DAO with the council.
-
-:::tip
-It's recommended to always setup the council as a Multisig for the initial DAO members.
-The members would be able to moderate the DAO governance process at its inception and prevent
-irreversible actions like setting impossible quorums or defending the DAO from governance attacks.  
-After successful decentralization the council can be removed thorough a proposal.
-:::
+Reference these docs to convert existing community token DAOs to NFT community DAOs
 
 ## Configure NFT Voting Plugin
 
