@@ -23,29 +23,23 @@ to verify and tokenize aspects of their members' real-world identity.
 
 In order to enable the Civic Pass plugin, use the following steps:
 
-:::danger Security
-As of 14/05/2022 the Civic Gateway program is not yet security-audited. Use at your own risk.
-:::
-
 ## Create DAO
 
-Create a DAO as usual with Realms. Both [Bespoke](bespoke-DAO.md) and [Multisig](multisig-DAO.md) DAO types are supported. 
+Create a Community Token DAO in Realms. 
 
-:::tip
-The current version of the Civic Pass plugin does not support composition of plugins. This feature is expected in
-June/July 2022. Until then, gated DAOs require the `Min community tokens to create proposal` property to be
-set to 1.
-:::
+![create-dao](/img/Gateway-DAO/create-dao.png)
 
 :::danger
-The spl-governance program version must be equal or higher than v2.2.4 for the Civic Pass plugin to work correctly.
+The spl-governance program version must be equal or higher than v2.2.6 for the Civic Pass plugin to work correctly.
 If the plugin is enabled for older versions it can result in irreversible deadlock of the DAO.
 :::
 
-**`Council`** - Setup a DAO with a council.
+:::tip
+Set up the DAO with a council token.
 
 The Civic Pass plugin does not affect the council.
 Setting a council allows the configuration of a DAO without requiring the council members to first obtain passes.
+:::
 
 ## Configure Civic Pass Plugin
 
@@ -65,7 +59,6 @@ If you are interested in using more than one Civic Pass type at once, contact [c
 or visit the [Discord](https://discord.gg/8H5Kdtr5Wn).
 :::
 
-
 ## Enable Civic Pass Plugin
 
 Once the Civic Pass plugin configuration proposal is voted on and executed, the DAO can enable it
@@ -76,9 +69,17 @@ From the DAO parameters page, select `Change Config` option
 ![DAO-config-change](/img/Gateway-DAO/DAO-config-change.png)
 
 and set the **`Community voter weight addin`** parameter to 
-the Civic Pass Gateway Program Id `Ggatr3wgDLySEwA2qEjt1oiw4BUzp5yMLJyz21919dq6`
+the Civic Pass Gateway Program Id `GgathUhdrCWRHowoRKACjgWhYHfxCEdBi5ViqYN6HVxk`
 
 ![enable-gateway-plugin](/img/Gateway-DAO/enable-gateway-plugin.png)
+
+:::tip
+If you want DAO community members to be able to create proposals, as well as vote on them,
+while still on the DAO parameters page, select 'Change Config' on the *Governances* section,
+and check the "Enabled" toggle beneath "Min community tokens to create proposal".
+
+![enable-create-proposal](/img/Gateway-DAO/enable-create-proposal.png)
+:::
 
 ## Obtaining a Civic Pass
 
@@ -91,3 +92,9 @@ The button shows the status of the current pass. A status of "Active" indicates 
 and they can interact with the DAO.
 
 Clicking the button opens an iFrame, which guides the user through the process of obtaining a Civic Pass.
+
+:::tip
+The Civic Pass plugin supports composition with other plugins. However, the Realms UI does not yet expose this feature.
+If you are interested in using the Civic Pass plugin with an NFT Community DAO, please [contact Civic](https://www.civic.com/contact-us/)
+or visit the [Discord](https://discord.gg/8H5Kdtr5Wn).
+:::
