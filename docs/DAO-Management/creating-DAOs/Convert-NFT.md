@@ -9,10 +9,6 @@ Any DAO can enable NFT voting through the Plug & Play mechanism of [spl-governan
 
 In order to enable NFT governance for a DAO the [NFT voting plugin](https://github.com/solana-labs/governance-program-library) has to be enabled for the DAO.
 
-:::danger Security
-As of 29/04/2022 the NFT voting plugin program hasn't been security audited yet. Use at your own risk.
-:::
-
 The NFT voting plugin grants governance power to NFTs based on the [Metaplex Certified Collection](https://www.metaplex.com/posts/certified-collections) they belong to.
 In the most basic scenario each NFT gives its owner 1 vote. The owner can have multiple NFTs and vote with all of them at once.  
 A DAO can also use more advanced scenarios where multiple collections with different voting power are used.
