@@ -21,6 +21,16 @@ The Civic Pass plugin allows a DAO to connect their DAO to [Civic Pass](https://
 a platform using the decentralized [Gateway Protocol](https://www.identity.com/ecosystem/gateway-protocol-3/)
 to verify and tokenize aspects of their members' real-world identity.
 
+:::info
+Please review the [Civic Pass Terms of Service](https://www.civic.com/legal/terms-of-service-civic-pass-v1/) carefully before continuing.
+By installing or integrating the Civic Pass (or Captcha) plugin, 
+you agree to Civic Pass Terms of Service on behalf of the organization, 
+company or other legal entity for which you act; and represent that you have the authority to bind the same. 
+
+If you do not have such authority, or if you do not agree with this the Civic Pass Terms of Service, 
+you must not continue and may not use the Services.
+:::
+
 In order to enable the Civic Pass plugin, use the following steps:
 
 ## Create DAO
