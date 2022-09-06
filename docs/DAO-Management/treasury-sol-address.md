@@ -29,4 +29,4 @@ Head to [your domains](https://naming.bonfida.org/#/profile?view=domains) on Bon
 After the transaction is processed, your domain has been transferred to the treasury and is now pointing to your treasury's address. You can send a small amount of SOL to this `.sol` domain name and see that it arrives directly into your treasury.
 
 ## Transfer out domain name
-It is currently only possible to transfer out a domain name from the treasury to a different address using a proposal with a custom instruction.
+Use the **"SNS Transfer Domain Name"** transaction instruction when creating a new proposal to transfer a domain out of a DAO's treasury.
