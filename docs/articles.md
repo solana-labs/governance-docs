@@ -23,6 +23,7 @@ https://paragraph.xyz/@legend/proposals-101-realms
 https://paragraph.xyz/@legend/token-delegation-in-realms
 
 **Learn about SPL Governance**
+
 https://paragraph.xyz/@xentoshi/spl-governance-a-technical-overview
 
 https://paragraph.xyz/@xentoshi/lifecycle-of-a-proposal-understanding-proposals-in-spl-governance
