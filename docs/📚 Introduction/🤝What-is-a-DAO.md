@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 🤝 What is a DAO?
+# What is a DAO?
 
 At its simplest, a **decentralized autonomous organization** (**DAO**) is a community with a shared bank account. Members of the **DAO** make decisions in a **transparent** and **decentralized** fashion, with smart contracts executing these decisions.
 
