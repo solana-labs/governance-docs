@@ -13,7 +13,7 @@
     * [🎨 Create a NFT Community DAO](<🔍 DAO Guide/🔍 DAO Creation/🎨 nftDAO/README.md>)
       * [🎨 Create a NFT Community DAO](<🔍 DAO Guide/🔍 DAO Creation/🎨 nftDAO/create-a-nft-community-dao.md>)
       * [🎨 Configure NFT Voting Plugin and Enable NFT Voting Plugin](<🔍 DAO Guide/🔍 DAO Creation/🎨 nftDAO/configure-nft-voting-plugin-and-enable-nft-voting-plugin.md>)
-    * [🌏 Create a Bespoke DAO](<🔍 DAO Guide/🔍 DAO Creation/👔 bespokeDAO.md>)
+    * [🌏 Create a Community Token DAO](<🔍 DAO Guide/🔍 DAO Creation/👔 bespokeDAO.md>)
   * [💰 Treasury](<🔍 DAO Guide/💰 Treasury/README.md>)
     * [💰 Treasury Domain Name](<🔍 DAO Guide/💰 Treasury/treasury-sol-address.md>)
     * [💰 Treasury Accounts](<🔍 DAO Guide/💰 Treasury/treasury-account.md>)
