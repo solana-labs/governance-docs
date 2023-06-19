@@ -1,2 +1,2 @@
-# 🔍 DAO Creation
+# 🤝 DAO Creation
 

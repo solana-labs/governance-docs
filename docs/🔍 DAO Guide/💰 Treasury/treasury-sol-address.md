@@ -2,31 +2,42 @@
 sidebar_position: 2
 ---
 
-# Treasury Domain Name
-It is possible for a treasury account to have a `.sol` address (eg. `mytreasury.sol`) through [Bonfida](https://naming.bonfida.org/). Anybody can send `.sol` domains to the treasury account. A Bonfida domain points to the current owner of said domain. For more information on solana domains, read [Bonfida's documentation](https://docs.bonfida.org/collection/an-introduction-to-the-solana-name-service).
+# 💰 Treasury Domain Name
 
-Note that a domain name must be owned *by the treasury, not the governance itself* to function. Do not transfer ownership of a domain to the governance's pubkey.
+The **Treasury domain** name is a feature in the Solana Governance UI that allows a treasury account to have a **`.sol`** address, such as **`mytreasury.sol`**, through [**Bonfida**](https://naming.bonfida.org/). \
+\
+Anybody can send **`.sol`** domains to the treasury account. A **Bonfida** domain points to the current owner of said domain. For more information on solana domains, read [**Bonfida's documentation**](https://docs.bonfida.org/collection/an-introduction-to-the-solana-name-service).
 
-## Purchasing a .sol domain name
-To purchase a `.sol` domain name, head to [Bondifa's Solana Name Service](https://naming.bonfida.org/) and follow the process.
+{% hint style="danger" %}
+A domain name must be owned _by the **treasury**, not the **governance** itself_ to **function**. \
+\
+Do not transfer **ownership** of a domain to the **governance's pubkey**.
+{% endhint %}
 
-## Set up treasury address
-Make sure your governance (eg. DAO) has a SOL treasury account. See [Treasury Accounts](treasury-account.md) if you haven't set one up yet.
+1. **Purchasing a .sol domain name:**
 
-![treasuryCard](/img/treasurySolAddress/treasuryCard.png)
+To purchase a **`.sol`** domain name, you need to navigate to [**Bondifa's Solana Name Service**](https://naming.bonfida.org/) and follow the process detailed there.
 
-Copy the deposit address of the treasury. This will be the address you'll transfer the `.sol` domain name to.
+2. **Set up treasury address:**
 
-![treasuryView](/img/treasurySolAddress/treasuryView.png)
+Before proceeding, ensure that your governance (e.g., **DAO**) has a SOL [**Treasury Accounts**](treasury-account.md). If you don't have one set up yet, you should do so before continuing.
 
-## Transfer domain to treasury
-As mentioned before, your domain must be transferred to the *treasury's address* (the one that you just copied).
+<figure><img src="../../.gitbook/assets/Screenshot_892.png" alt="" width="390"><figcaption></figcaption></figure>
 
-Head to [your domains](https://naming.bonfida.org/#/profile?view=domains) on Bonfida, and select the domain you'd like to transfer. Under the "Domain information", "Owner" section, click the "Transfer" button. Paste in your treasury address and hit transfer.
+Once you have a treasury account, copy the **deposit address of the treasury**. This will be the address to which you'll transfer the **`.sol`** domain name
 
-![bonfidaDomainView](/img/treasurySolAddress/bonfidaDomainView.png)
+<figure><img src="../../.gitbook/assets/Screenshot_893.png" alt=""><figcaption></figcaption></figure>
 
-After the transaction is processed, your domain has been transferred to the treasury and is now pointing to your treasury's address. You can send a small amount of SOL to this `.sol` domain name and see that it arrives directly into your treasury.
+3. **Transfer domain to treasury:**
 
-## Transfer out domain name
+After setting up a treasury address, the next step is to transfer your domain to the **treasury's address** (the one you just copied). \
+\
+To do this, go to [**your domains**](https://naming.bonfida.org/#/profile?view=domains) on **Bonfida**, and select the domain you'd like to **transfer**. Under the "**Domain information**", "**Owner**" section, click the "**Transfer**" button. Paste in your **treasury address** and hit transfer.
+
+<figure><img src="../../.gitbook/assets/bonfidaDomainView-8715c9640dae150718f14f1b53bf20f2.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Once the transaction is processed, your domain has been transferred to the **treasury** and is now pointing to your **treasury's address**. You can test this by sending a small amount of SOL to this **`.sol`** domain name and see that it arrives directly into your treasury.
+
+{% hint style="info" %}
 It is currently only possible to transfer out a domain name from the treasury to a different address using a proposal with a custom instruction.
+{% endhint %}

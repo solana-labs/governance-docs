@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# SPL Governance Deep Dive
+# 🤿 SPL Governance Deep Dive
 
 This is a more technical article about the SPL Governance topic. It's meant for anyone interested in understanding the Realms system in detail and for anybody planning to integrate with SPL Governance.
 

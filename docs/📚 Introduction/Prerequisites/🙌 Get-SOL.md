@@ -1,28 +1,27 @@
 ---
 sidebar_position: 2
+description: Guide exclusevily for Phantom Wallet onto how to get $SOL.
 ---
 
-# How to get $SOL?
+# 📲 How to get $SOL?
 
-1. Open your wallet and click on `Deposit`. (e.g. Phantom | Solflare)
+1. Open your wallet and click on **`Deposit`**.
+2. Click **`Buy`** or **`Transfer`**.
+3. Select your preferred payment method: \
+   \- Transfer SOL from any CEX thats supports Solana.\
+   \- Purchase SOL via **MoonPay**.\
+   \- Purchase SOL via **Coinbase Pay**.\
+   **-** Send SOL from your other crypto wallet.
+4. If purchased via **MoonPay**/ **Coinbase Pay**\
+   \- For **MoonPay** enter your payment information. \
+   \- For **Coinbase Pay** proceed with authentication then payment information.
 
-![IMG\_1096 2](https://i.imgur.com/XwejRje.png) ![solflare](https://i.imgur.com/SSLd9Oh.png)
+<img src="https://i.imgur.com/XwejRje.png" alt="" data-size="original">![](https://i.imgur.com/BoYJd2s.png)![](../../.gitbook/assets/Screenshot\_882.png)![](../../.gitbook/assets/Screenshot\_881.png)
 
-2. Click `Buy` or `Transfer`.
+{% hint style="success" %}
+The first time time you use **Moonpay**, it could take up to an hour to see the $**SOL** in your wallet.
 
-![IMG\_1097](https://i.imgur.com/BoYJd2s.png)
+\
+Any subsequent deposits will show in your wallet within minutes.
+{% endhint %}
 
-3.
-
-* Phantom | Select your preferred payment method: Transfer SOL from Coinbase, purchase SOL via Moonpay or send SOL from your other crypto wallet.
-* Solflare | Select your preferred payment method: Purchase SOL via Moonpay or send SOL from your other crypto wallet.
-
-![IMG\_1098](https://i.imgur.com/OfMV2ZB.png)
-
-4. For Moonpay enter your payment information
-
-![IMG\_CC6ED7300F51-1](https://user-images.githubusercontent.com/22420711/178376499-577ab13c-add3-4799-8caf-d00c6746b1be.jpeg)
-
-:::tip The first time time you use **Moonpay**, it could take up to an hour to see the SOL in your wallet.
-
-Any subsequent deposits will show in your wallet within minutes. :::
