@@ -23,4 +23,6 @@
     * [🗺️ Charter Your DAO](<🔍 DAO Guide/treasury/Chartered-DAO.md>)
     * [🛡️ Protect a DAO with Civic Pass](<🔍 DAO Guide/treasury/gated-DAO.md>)
 * [📰 Articles](<🔍 DAO Guide/📰 Articles.md>)
-* [🤿 SPL Governance Deep Dive](<🔍 DAO Guide/🤿 SPL Governance Deep Dive.md>)
+* [🤿 SPL Governance Deep Dive](<🤿 SPL Governance Deep Dive/README.md>)
+  * [🤿 SPL Governance](<🤿 SPL Governance Deep Dive/spl-governance.md>)
+  * [🤿 Governance UI](<🤿 SPL Governance Deep Dive/governance-ui.md>)
