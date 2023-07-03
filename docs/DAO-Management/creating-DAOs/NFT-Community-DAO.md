@@ -51,7 +51,7 @@ If the plugin is enabled for older versions it can result in irreversible deadlo
 It's recommended to always setup the council as a Multisig for the initial DAO members.
 The members would be able to moderate the DAO governance process at its inception and prevent
 irreversible actions like setting impossible quorums or defending the DAO from governance attacks.  
-After successful decentralization the council can be removed thorough a proposal.
+After successful decentralization the council can be removed through a proposal.
 :::
 
 ## Configure NFT Voting Plugin
