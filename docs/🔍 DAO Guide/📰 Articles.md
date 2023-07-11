@@ -20,6 +20,8 @@ https://paragraph.xyz/@xentoshi/multi-sig-on-solana
 
 **Learn about Realms**
 
+https://paragraph.xyz/@xentoshi/update-dao
+
 https://paragraph.xyz/@legend/proposals-101-realms
 
 https://paragraph.xyz/@legend/token-delegation-in-realms
@@ -33,3 +35,7 @@ https://paragraph.xyz/@xentoshi/lifecycle-of-a-proposal-understanding-proposals-
 https://paragraph.xyz/@xentoshi/voting-in-realms-locking-tokens-and-plugin-system
 
 https://paragraph.xyz/@legend/governance-ui-realms
+
+#### Learn about Dual Finance
+
+https://link.medium.com/BGylB1d24Ab
