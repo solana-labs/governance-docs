@@ -57,7 +57,7 @@ The **collection ID** can be found on the NFT explorer view. For example for [De
 <figure><img src="https://paragraph.xyz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fpapyrus_images%2F8b0e989bee931a4e6d6925c09d99dba2.png&#x26;w=1080&#x26;q=75" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-It is important to ensure that the collection is [**certified by the Metaplex standard**](https://docs.metaplex.com/programs/token-metadata/certified-collections).
+It is important to ensure that the collection is [**certified by the Metaplex standard**](https://docs.metaplex.com/programs/token-metadata/certified-collections) since it only possible to procced to the next step if the collection is **certified**.
 
 
 

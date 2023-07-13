@@ -12,7 +12,7 @@ sidebar_position: 1
 
 Realms is built on top of [**SPL Governance**](https://github.com/solana-labs/solana-program-library/tree/master/governance), which is a DAO and asset-type agnostic standard for building and maintaining DAOs on Solana. This means that builders can create any type of DAO they want, whether it's a [**multi-sig DAO**](https://paragraph.xyz/@xentoshi/multi-sig-on-solana), an [**NFT Community DAO**](https://paragraph.xyz/@xentoshi/nft-community-dao-on-solana-governance-with-nft-voting), or a [**community token DAO**](https://paragraph.xyz/@legend/create-community-token-dao-on-solana).
 
-***
+
 
 ## 🔗 Links & Resources
 

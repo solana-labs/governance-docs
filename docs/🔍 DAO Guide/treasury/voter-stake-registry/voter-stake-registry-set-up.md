@@ -16,10 +16,8 @@ This step is optional, but is the safest route to go!
 
 Create a Registrar by passing in the governance program ID, and the community token mint. Registrars are uniquely constrained (via PDA usage) by those two parameters.
 
-{% hint style="warning" %}
-Using the SPL Governance UI today will default to the Voter Stake Registry to the Mango **DAO**. \
-\
-Using protocols controlled by others can open the **DAO** to risks as their alignment with yours may differ in the future. This is a concern for any protocol holding tokens for an extended period of time. For example, the Mango token holders could collude to upgrade the protocol with an instruction that sucks all the tokens out of other vesting/locked contracts.
+{% hint style="info" %}
+Using the SPL Governance UI today will default to the community owned VSR instance.&#x20;
 {% endhint %}
 
 <figure><img src="https://i.imgur.com/du0bIq2.png" alt=""><figcaption></figcaption></figure>

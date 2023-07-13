@@ -71,8 +71,6 @@ The **collection ID** can be found on the NFT explorer view. For example for [De
 
 <figure><img src="../../../.gitbook/assets/Screenshot_886 (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
 3. **Enable NFT Voting Plugin:**&#x20;
 
 Once the NFT voting plugin configuration proposal is voted on and all instructions executed, the DAO can enable NFT governance through a **`DAO Config Change`** proposal.
@@ -97,7 +95,7 @@ Once the proposal to enable the NFT Voting Plugin for the **DAO** is executed, a
 \
 The NFTs eligible for governance are displayed in the account view.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_891.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1112323232.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Before you can vote in the **DAO** you have to register your wallet with the **DAO**.

@@ -24,7 +24,7 @@
       * [🔒 How to Propose Issuing Locked Tokens](<🔍 DAO Guide/treasury/voter-stake-registry/how-to-propose-issuing-locked-tokens.md>)
       * [🔒 How to Propose Clawing Back Granted Tokens](<🔍 DAO Guide/treasury/voter-stake-registry/how-to-propose-clawing-back-granted-tokens.md>)
     * [👻 How to use Devnet in Phantom Wallet](<🔍 DAO Guide/treasury/🔔 Reminder.md>)
-    * [🕶 Adding Members to a DAO](<🔍 DAO Guide/treasury/DAO-add-members.md>)
+    * [🕶 Adding Council Members to a DAO](<🔍 DAO Guide/treasury/DAO-add-members.md>)
     * [🗺️ Change your DAO Logo & Banner](<🔍 DAO Guide/treasury/Chartered-DAO.md>)
     * [🛡️ Protect a DAO with Civic Pass](<🔍 DAO Guide/treasury/gated-DAO.md>)
 * [🤿 SPL Governance Deep Dive](<🤿 SPL Governance Deep Dive/README.md>)
