@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # ✨Create a Multisig DAO
 
 The **multisig** option is the first and easiest way to create a **DAO**. When you select this option you only need to worry about three things:

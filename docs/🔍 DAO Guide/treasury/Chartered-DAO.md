@@ -1,9 +1,8 @@
 ---
-sidebar_position: 6
 description: Update you DAO's logo and banner!
 ---
 
-# 🗺️ Charter Your DAO
+# 🗺️ Change your DAO Logo & Banner
 
 1. Fork [**Solana-labs/Governance-ui**](https://github.com/solana-labs/governance-ui)**.**
 

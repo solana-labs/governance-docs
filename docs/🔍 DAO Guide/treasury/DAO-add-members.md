@@ -1,8 +1,4 @@
----
-sidebar_position: 7
----
-
-# 🕶 Adding Members to a DAO
+# 🕶 Adding Council Members to a DAO
 
 In order to add a member to your **DAO**, follow the steps detailed below:
 

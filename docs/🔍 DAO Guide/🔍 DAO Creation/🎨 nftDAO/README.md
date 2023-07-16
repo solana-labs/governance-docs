@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # 🎨 Create a NFT Community DAO
 
 {% content-ref url="create-a-nft-community-dao.md" %}

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # 💰 Treasury Accounts
 
 A **treasury account** is a shared wallet that holds assets owned by a **DAO**. Each **DAO** can have any number of treasury accounts holding different assets. Anybody can deposit tokens into treasury accounts but only the **DAO** members can approve withdrawals through treasury transfer proposals​.

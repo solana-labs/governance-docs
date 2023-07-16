@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # 💰 Treasury Domain Name
 
 The **Treasury domain** name is a feature in the Solana Governance UI that allows a treasury account to have a **`.sol`** address, such as **`mytreasury.sol`**, through [**Bonfida**](https://naming.bonfida.org/). \

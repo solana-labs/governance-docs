@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # 🌏 Create a Community Token DAO
 
 When you choose to create a Community Token **DAO**, we assume that you're an advanced user who understands all the governance setup details and we present you a more complex and flexible form than the multisig **DAO**.

@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # 🛡️ Protect a DAO with Civic Pass
 
 By default, a **DAO** grants permission to vote through a governance token. In many cases, this is insufficient, and a **DAO** needs to add additional constraints to its membership based on their real-world identity. Example use-cases are:

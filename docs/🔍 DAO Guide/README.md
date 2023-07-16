@@ -1,2 +1,2 @@
-# 🔍 DAO Guide
+# 🔍 DAO Guides
 

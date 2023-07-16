@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # 📰 Articles
 
 Here you'll find a rich collection of in-depth tutorials designed to guide you through every step. Whether you're a beginner just starting out or an experienced user looking for advanced tips, our articles cover a wide range of topics to help you make the best choice.

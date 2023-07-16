@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # 👻 How to use Devnet in Phantom Wallet
 
 1. In the **Phantom** wallet, go top corner and click the **three slabs** and then click the **gear** icon in the bottom right.

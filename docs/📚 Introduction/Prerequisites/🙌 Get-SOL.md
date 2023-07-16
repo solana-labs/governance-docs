@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 description: Guide exclusevily for Phantom Wallet onto how to get $SOL.
 ---
 
