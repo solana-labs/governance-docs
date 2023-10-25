@@ -46,9 +46,9 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "DAO-Management/get-started",
+            docId: "Introduction/realms",
             position: "left",
-            label: "Tutorial",
+            label: "Realms",
           },
           {
             href: "https://github.com/solana-labs/governance-docs/",
