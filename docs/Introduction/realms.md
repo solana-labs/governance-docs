@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 # 🏛️ Realms
@@ -17,5 +18,5 @@ Realms is built on top of [**SPL Governance**](https://github.com/solana-labs/so
 | Realms | Solana |
 |--------|--------|
 | [Website](https://app.realms.today/realms) | [Website](https://solana.com/) |
-| [Discord](../%F0%9F%93%9A%20Introduction/discord.gg/6UZHcNJFr8/) | [Discord](https://discord.com/invite/kBbATFA7PW) |
+| [Discord](https://discord.gg/6UZHcNJFr8/) | [Discord](https://discord.com/invite/kBbATFA7PW) |
 | [Twitter](https://twitter.com/Realms_DAOs) | [Twitter](https://twitter.com/solana) |
