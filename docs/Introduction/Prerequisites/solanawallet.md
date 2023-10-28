@@ -3,7 +3,9 @@ sidebar_position: 3
 ---
 
 
-# ♾️ Create a Solana Wallet
+# ⏹️ Create a Solana Wallet
+
+## Wallets
 
 Below are links on information for creating a wallet that Realms currently supports:
 

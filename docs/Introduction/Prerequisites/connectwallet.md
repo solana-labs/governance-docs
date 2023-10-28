@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 🔌 Connect your Wallet
+# ⏹️ Connect Your Wallet
 
 Go to [**Realms**](https://app.realms.today/realms) and click on the `Connect` button in the top right corner.
 
