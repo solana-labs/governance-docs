@@ -69,11 +69,15 @@ const config = {
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/solana",
+                href: "https://twitter.com/Realms_DAOs",
               },
               {
-                label: "Forums",
-                href: "https://forums.solana.com",
+                label: "Youtube",
+                href: "https://www.youtube.com/@RealmsSolana",
+              },
+              {
+                label: "Website",
+                href: "https://realms.today/",
               },
             ],
           },
