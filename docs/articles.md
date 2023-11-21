@@ -18,7 +18,33 @@ https://paragraph.xyz/@xentoshi/nft-community-dao-on-solana-governance-with-nft-
 
 https://paragraph.xyz/@xentoshi/multi-sig-on-solana
 
-### Learn about Realms
+### Learn about Realms (Community Written Extra Guides)
+
+https://medium.com/@raccoonlegend/add-vote-execute-remove-council-tokens-in-realms-bf77f06638a5
+
+https://twitter.com/g_kourou/status/1695427268514906619
+
+https://medium.com/@raccoonlegend/the-importance-of-quorum-in-daos-on-solana-8cb27b82d81e
+
+https://medium.com/@raccoonlegend/dao-treasuries-a-quick-financial-overview-27c520404c55
+
+https://medium.com/@raccoonlegend/dao-parameters-101-part-1-5e6476bdcb04
+
+https://medium.com/@raccoonlegend/dao-parameters-101-part-2-63f89522978d
+
+https://medium.com/@raccoonlegend/vsr-voter-stake-registry-set-up-part-1-12238a375741
+
+https://medium.com/@raccoonlegend/vsr-voter-stake-registry-how-to-lock-your-own-tokens-part-2-f12d91074a02
+
+https://medium.com/@raccoonlegend/vsr-voter-stake-registry-how-to-propose-issuing-locked-tokens-part-3-149ffd1fa0f3
+
+https://medium.com/@raccoonlegend/vsr-voter-stake-registry-how-to-propose-clawing-back-granted-tokens-part-4-456757014e01
+
+https://medium.com/@egbajijunior/how-to-use-the-staking-options-via-realms-129ded342eae
+
+https://twitter.com/g_kourou/status/1697265091358642580
+
+https://twitter.com/g_kourou/status/1697265091358642580
 
 https://paragraph.xyz/@legend/proposals-101-realms
 
@@ -31,6 +57,8 @@ https://medium.com/@egbajijunior/how-to-use-the-staking-options-via-realms-129de
 https://frigaate.medium.com/multi-choice-proposals-on-realms-a4fd4db8f054
 
 ### Learn about supported Protocols in Realms
+
+https://twitter.com/g_kourou/status/1695087040835047907
 
 https://paragraph.xyz/@xentoshi/mango-instructions
 
