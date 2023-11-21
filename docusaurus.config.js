@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Solana Governance UI Docs",
-  tagline: "Solana Governance UI Documentation",
+  title: "Governance UI Docs",
+  tagline: "Realms Governance UI Documentation",
   url: "https://docs.realms.today",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -46,9 +46,9 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "DAO-Management/get-started",
+            docId: "Introduction/realms",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
           {
             href: "https://github.com/solana-labs/governance-docs/",
@@ -69,11 +69,15 @@ const config = {
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/solana",
+                href: "https://twitter.com/Realms_DAOs",
               },
               {
-                label: "Forums",
-                href: "https://forums.solana.com",
+                label: "Youtube",
+                href: "https://www.youtube.com/@RealmsSolana",
+              },
+              {
+                label: "Website",
+                href: "https://realms.today/",
               },
             ],
           },
