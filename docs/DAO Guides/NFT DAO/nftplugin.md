@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# 🔲 Configure NFT Voting Plugin and Enable NFT Voting Plugin
+# 🎨 Configure NFT Voting Plugin and Enable NFT Voting Plugin
 
 **NFT Community DAO** is a **DAO** where NFTs are used as the governance token. Any DAO can enable NFT voting through the `Plug & Play` mechanism of [**`spl-governance`**](https://github.com/solana-labs/solana-program-library/blob/master/governance/README.md).
 

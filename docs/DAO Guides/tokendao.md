@@ -11,14 +11,6 @@ When you choose to create a Community Token **DAO**, we assume that you're an ad
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eIjuq2IAnck?si=eJf3iX0ovQTo3h2-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
 
-:::info
-Make sure to review all info and **double check** if everything is correct.
-
-After creating the DAO make sure to create a **test proposal** to see if the DAO is running on the correct parameters and to see if proposals can go through the quorum.
-
-For any assistance in these test proposals feel free to join our **Discord**.
-:::
-
 ### Step 1 - Selection
 
 Go to [**Realms**](https://app.realms.today/realms) and connect your wallet in the top right corner by clicking on **`Sign in with Solana`**.
@@ -142,10 +134,6 @@ After following this steps, you should have something similar like the image bel
 
 :::warning
 Make sure to review all info and **double check** if everything is correct.
-
-After creating the DAO make sure to create a **test proposal** to see if the DAO is running on the correct parameters and to see if proposals can go through the quorum.
-
-For any assistance in these test proposals feel free to join our **Discord** below.
 :::
 
 :::info
