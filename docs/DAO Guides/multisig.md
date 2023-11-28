@@ -14,7 +14,9 @@ The **multisig** option is the first and easiest way to create a **DAO**. When y
 
 :::info Youtube Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JKcjDgfyWXk?si=sLA0iBZn7Krlki17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
 
+:::info
 Make sure to review all info and **double check** if everything is correct.
 
 After creating the DAO make sure to create a **test proposal** to see if the DAO is running on the correct parameters and to see if proposals can go through the quorum.
