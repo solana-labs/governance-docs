@@ -14,6 +14,12 @@ The **multisig** option is the first and easiest way to create a **DAO**. When y
 
 :::info Youtube Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JKcjDgfyWXk?si=sLA0iBZn7Krlki17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Make sure to review all info and **double check** if everything is correct.
+
+After creating the DAO make sure to create a **test proposal** to see if the DAO is running on the correct parameters and to see if proposals can go through the quorum.
+
+For any assistance in these test proposals feel free to join our **Discord**.
 :::
 
 ### Step 1 - Selection
@@ -58,8 +64,11 @@ Then just click **Create Wallet**, your wallet will pop up asking for signature.
 
 :::warning
 Make sure to review all info and **double check** if everything is correct.
-:::
 
+After creating the DAO make sure to create a **test proposal** to see if the DAO is running on the correct parameters and to see if proposals can go through the quorum.
+
+For any assistance in these test proposals feel free to join our **Discord** below.
+:::
 
 :::info
 After the transaction is complete, you'll be redirected to the **DAO**'s page.
