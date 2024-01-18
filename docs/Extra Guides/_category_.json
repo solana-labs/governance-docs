@@ -1,4 +1,6 @@
 {
-  "label": "🟡 Extra Guides",
-  "position": 6
+  "label": "Extra Guides",
+  "position": 6,
+  "collapsible": false,
+  "collapsed": false
 }

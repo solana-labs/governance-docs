@@ -1,4 +1,6 @@
 {
-  "label": "⚫ DAO Guides",
-  "position": 3
+  "label": "DAO Guides",
+  "position": 3,
+  "collapsible": false,
+  "collapsed": false
 }

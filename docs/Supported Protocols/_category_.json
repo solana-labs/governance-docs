@@ -1,4 +1,6 @@
 {
-  "label": "🔴 Supported Protocols",
-  "position": 8
+  "label": "Supported Protocols",
+  "position": 8,
+  "collapsible": false,
+  "collapsed": false
 }

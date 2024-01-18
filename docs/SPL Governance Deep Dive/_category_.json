@@ -1,4 +1,6 @@
 {
-  "label": "🟤 Governance Deep Dive",
-  "position": 10
+  "label": "Governance Deep Dive",
+  "position": 10,
+  "collapsible": false,
+  "collapsed": false
 }
