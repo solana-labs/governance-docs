@@ -86,7 +86,7 @@ A voter is represented by a wallet containing tokens that identify the voter's v
 
 The Governance account structure is documented [**in the repository**](https://github.com/solana-labs/solana-program-library/blob/governance-v3.1.0/governance#program-accounts). But let's take a look at the account hierarchy in more detail. We will start with a picture of all available accounts, and then have a description of them.
 
-![Image](https://docs.realms.today/assets/images/spl-gov-account-structure-ec1741641397b81a58dc86e29f40fed4.png)
+![Image](https://storage.googleapis.com/papyrus_images/9c1cc9741f329262a42adc42b63efdc0.png)
 
 The top-level account (representing a **DAO**, as explained above) is [**the `Realm` account**](https://github.com/solana-labs/solana-program-library/blob/governance-v3.1.0/governance/program/src/state/realm.rs#L124). The address of the realm account is [**calculated as a PDA address**](https://github.com/solana-labs/solana-program-library/blob/governance-v3.1.0/governance/program/src/state/realm.rs#L125) identified by its name. There **cannot** be **two realms with the same nam**e, the name cannot be changed while a display name is used for example, in the Governance UI [**can be modified**](https://discord.com/channels/910194960941338677/964818745786789898/1093478043382722580).
 
@@ -124,7 +124,7 @@ When one checks the **SPL Governance program in version 3.1**, she may notice th
 
 ## Lifecycle of a Proposal
 
-![Image](https://docs.realms.today/assets/images/spl-gov-proposal-states-e7cab357378945b99c1e7e32409e3e03.png)
+![Image](https://paragraph.xyz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fpapyrus_images%2Fcacdd490f346f5b2859974b45bb6e8e0.png&w=1080&q=75)
 
 As said before, the proposal goes through a lifecycle defined by several states. Let's take a look at them in more detail.
 

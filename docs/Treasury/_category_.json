@@ -1,4 +1,6 @@
 {
-  "label": "🟢 Treasury",
-  "position": 5
+  "label": "Treasury",
+  "position": 5,
+  "collapsible": false,
+  "collapsed": false
 }

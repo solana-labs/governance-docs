@@ -2,7 +2,7 @@
 sidebar_position: 24
 ---
 
-# ⚪ Articles
+# Articles
 
 Here you'll find a rich collection of in-depth articles, guide and tutorials designed to guide you through every step. 
 
