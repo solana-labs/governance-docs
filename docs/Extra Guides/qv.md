@@ -127,6 +127,29 @@ The choice of Civic Pass type can be configured by the DAO creator, and can be s
 However, it is worth noting that not all Civic Passes are suitable for sybil resistance. Therefore it is recommended to 
 use the default Civic Pass type to secure your DAO.
 
+### Circulating Token Supply Factor
+
+When configuring your DAO, you have the option to set the circulating token supply to a percentage of the total
+token supply.
+
+This allows a DAO to configure its maximum voter weight, which, in a quadratic voting DAO, is based on the
+token distribution and is typically less than the total token supply.
+
+![circulating-supply.png](QV/circulating-supply.png)
+
+This is particularly useful if you know the upper limit will not exceed a fixed value.
+
+For example, if 25% of the total supply is held by a single entity, that votes in a block, then
+you can set the circulating supply factor to 75% + the square root of the number of tokens held by the entity.
+
+### Approval Quorum
+
+The approval quorum is the amount of votes required for a proposal to pass. It is set as a percentage of the circulating
+voter weight. Combined with the circulating total supply factor, this allows a DAO to configure the amount of votes
+needed for a proposal to pass, and adapt it over time.
+
+This value should be used when the max voter weight is not known, or varies frequently.
+
 :::tip
 In need of **help**? Hop on on [**Realms Discord**](https://discord.com/invite/VsPbrK2hJk) and ask away your questions!
 :::
