@@ -106,7 +106,22 @@ Once you have a program and client, you can integrate your plugin with Realms as
 1. Import it into [Governance UI](https://github.com/solana-labs/governance-ui)
 2. Register it in [VoterWeightPlugins/clients/index.ts](https://github.com/solana-labs/governance-ui/blob/master/VoterWeightPlugins/clients/index.ts)
 3. List it in [VotingStructureSelector/index.tsx](https://github.com/solana-labs/governance-ui/blob/master/hub/components/EditRealmConfig/VotingStructureSelector/index.tsx) and [constants/plugins.ts](https://github.com/solana-labs/governance-ui/blob/master/constants/plugins.ts) to ensure it appears in the list of plugins when editing a DAO.
-4. Define any optional UI components as needed
+4. Define any optional UI components as needed.
+
+The typical place where you will need to add dedicated UI components for your plugin is the "Voter Weight card",
+which shows the user what their voting power is, and how it is calculated.
+
+If your plugin does not need any dedicated UI to show voting power, the "Vanilla" voting power UI will be used.
+
+The vanilla voting power UI will:
+ - assume the user can "deposit" tokens into the DAO
+ - show the votes simply using the plucin's calculatedVoteWeight without explanation
+
+This is a reasonable placeholder for some plugins, but to make life easier for users, plugin developers may want to add their own.
+
+To add your own:
+- add your plugin name to `pluginsWithDedicatedVotingPowerUI` in [VotingPowerCards.tsx](https://github.com/solana-labs/governance-ui/blob/master/components/GovernancePower/Power/VotingPowerCards.tsx)
+- register your UI component inside `CardForPlugin` in the same file
 
 ## Voter Weight Plugin Chaining
 
@@ -127,3 +142,65 @@ To support plugin chaining in your plugin:
 
 For examples of chainable plugins, see the Civic Pass and Quadratic plugins
 in the [Governance Program Library](https://github.com/solana-labs/governance-program-library).
+
+### Supporting Chaining in the UI
+
+There is relatively little specific logic required to support plugin chaining when adding your plugin to the UI.
+
+The Realms code will automatically wire up your plugin with others in the chain, as long as your plugin client
+provides a Registrar account that contains a `previousVoterWeightPluginProgramId` property.
+
+If `previousVoterWeightPluginProgramId` is found, then Realms will pass in an input VWR belonging to that plugin
+to your plugin's `updateVoterWeightRecord` instruction and `calculateVoterWeight` function.
+
+#### Example
+
+Here is an example of a plugin registrar that supports chaining (using Anchor):
+
+```typescript
+export interface Registrar {
+  governanceProgramId: PublicKey;
+  realm: PublicKey;
+  governingTokenMint: PublicKey;
+  previousVoterWeightPluginProgramId?: PublicKey;
+  // ...any other plugin-specific configuration
+}
+
+class MyPluginClient extends Client<typeof IDL> {
+    //...other functions
+    getRegistrarAccount(realm: PublicKey, mint: PublicKey) {
+        const { registrar } = this.getRegistrarPDA(
+            realm,
+            mint,
+        );
+        return this.program.account.registrar.fetchNullable(
+            registrar
+        )
+    }
+
+    async calculateVoterWeight(voter: PublicKey, realm: PublicKey, mint: PublicKey, inputVoterWeight: BN): Promise<BN | null> {
+        const registrar = await this.getRegistrarAccount(realm, mint);
+
+        // This part varies depending on your plugin
+        const voteWeight = applyMyPluginFunction(registrar, inputVoterWeight);
+        
+        return voteWeight;
+    }
+}
+```
+
+#### Input Weights of First Plugin
+
+The first plugin in the chain will receive the user's raw token balance as the input weight
+(or the token supply of the governance mint in the case of max voter weight plugins).
+
+This may or may not be relevant to your plugin, so you may choose to ignore it. An example would be the NFT plugin,
+which uses the user's NFTs to calculate their voting power, and does not use their token balance, and the 
+NFT collection details are defined in the plugin registrar.
+
+If you are ignoring the input voter weight, you may not want to prompt the user to deposit their governance tokens
+(since doing so has no effect on their voting power). In this case, set the `requiresInputVoterWeight` property
+to false. Set it explicitly to true to prompt the user to deposit their tokens.
+
+Note, this toggle has no effect on the on-chain logic - the plugin will still receive the input voter weight.
+It is purely a UI convenience.
