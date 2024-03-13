@@ -3,9 +3,8 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+const config = async () => ({
   title: "Governance UI Docs",
   tagline: "Realms Governance UI Documentation",
   url: "https://docs.realms.today",
@@ -26,6 +25,8 @@ const config = {
           routeBasePath: "/",
           editUrl:
             "https://github.com/solana-labs/governance-docs/tree/master",
+          remarkPlugins: [(await import('remark-math')).default],
+          rehypePlugins: [(await import('rehype-katex')).default],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -100,6 +101,16 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+          'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    }
+  ]
+});
 
 module.exports = config;
