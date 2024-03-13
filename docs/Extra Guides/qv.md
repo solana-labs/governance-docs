@@ -39,14 +39,14 @@ As a voter, once you have obtained your Civic Pass (see above),
 
 Choose the **Community Token DAO** option from the **Create DAO** page.
 
-![community-dao.png](QV%2Fcommunity-dao.png)
+![community-dao.png](./QV/community-dao.png)
 
 ##### Step 2 - Select Quadratic
 
 In the **Community Token** section, select **Advanced Options**,
 and then select **Quadratic**.
 
-![select-quadratic.png](QV%2Fselect-quadratic.png)
+![select-quadratic.png](./QV/select-quadratic.png)
 
 Note: It is possible here to configure the Quadratic Voting plugin. We recommend keeping the default settings.
 To learn about the configuration options, see below.
@@ -55,7 +55,7 @@ To learn about the configuration options, see below.
 
 Proceed through the other steps of the DAO and create it.
 
-![create-dao.png](QV%2Fcreate-dao.png)
+![create-dao.png](./QV/create-dao.png)
 
 ### Adapting an existing DAO to use QV
 
@@ -70,11 +70,11 @@ If the plugin is enabled for **older versions** it can result in **irreversible 
 
 Select the **Params** button and choose **Change config**.
 
-![params.png](QV%2Fparams.png)
+![params.png](./QV/params.png)
 
 Select **Civic** as the governance structure
 
-![edit-realm-civic.png](QV%2Fedit-realm-civic.png)
+![edit-realm-civic.png](./QV/edit-realm-civic.png)
 
 Leave the pass type as the default.
 
@@ -89,7 +89,7 @@ Once again, select the **Params** button and choose **Change config**.
 This time, select **Quadratic** as the governance structure, and enable the
 **Chain this plugin with the Civic Plugin?** option.
 
-![chain-qv-plugin.png](QV%2Fchain-qv-plugin.png)
+![chain-qv-plugin.png](./QV/chain-qv-plugin.png)
 
 Leave the coefficients as the default.
 
