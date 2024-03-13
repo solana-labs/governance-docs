@@ -16,7 +16,7 @@ However, if a DAO enables a plugin, the voter weight of a member can be modified
 Example plugins are:
 - [Quadratic Voting](qv.md): The voter weight of a member is proportional to the square root of the number of tokens they hold.
 - [Voter Stake Registry](VSR/vsrsetup.md): A voter's weight can be increased by locking tokens.
-- [NFT](../DAO Guides/NFT DAO/nftdao.md): The voter weight of a member is proportional to the number and type of NFTs they hold.
+- [NFT](/DAO%20Guides/NFT%20DAO/nftdao.md): The voter weight of a member is proportional to the number and type of NFTs they hold.
 
 ## How to Create a Voter Weight Plugin
 
@@ -115,7 +115,7 @@ If your plugin does not need any dedicated UI to show voting power, the "Vanilla
 
 The vanilla voting power UI will:
  - assume the user can "deposit" tokens into the DAO
- - show the votes simply using the plucin's calculatedVoteWeight without explanation
+ - show the votes simply using the plugin's calculatedVoteWeight without explanation
 
 This is a reasonable placeholder for some plugins, but to make life easier for users, plugin developers may want to add their own.
 

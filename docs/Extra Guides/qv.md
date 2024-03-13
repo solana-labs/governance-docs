@@ -2,6 +2,9 @@
 sidebar_position: 20
 ---
 
+import CommunityDAO from './QV/community-dao.png'
+import ChainPlugin from './QV/chain-qv-plugin.png'
+
 # 🟨 Quadratic Voting
 
 ## What is Quadratic Voting?
@@ -39,7 +42,7 @@ As a voter, once you have obtained your Civic Pass (see above),
 
 Choose the **Community Token DAO** option from the **Create DAO** page.
 
-![community-dao.png](./QV/community-dao.png)
+<img src={CommunityDAO} width="800" />
 
 ##### Step 2 - Select Quadratic
 
@@ -89,7 +92,7 @@ Once again, select the **Params** button and choose **Change config**.
 This time, select **Quadratic** as the governance structure, and enable the
 **Chain this plugin with the Civic Plugin?** option.
 
-![chain-qv-plugin.png](./QV/chain-qv-plugin.png)
+<img src={ChainPlugin} width="800"/>
 
 Leave the coefficients as the default.
 
@@ -112,7 +115,7 @@ $$
 The coefficients `a`, `b`, and `c` can be configured by the DAO creator, but are set as default to 1,0,0 respectively(*),
 which has the effect of making the voting power of a member equal to the square root of the number of tokens they hold.
 
-'* The `a` coefficient in fact depends on the number of decimal places of the token, and is formally calculated as $\sqrt{10^tokenDecimals}$
+'* The `a` coefficient in fact depends on the number of decimal places of the token, and is formally calculated as $\sqrt{10^\textrm{ tokenDecimals}}$
 
 Setting the coefficients to different values can have the effect of making the voting power of a member more or less sensitive to the number of tokens they hold.
 For extreme examples:
