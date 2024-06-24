@@ -8,6 +8,10 @@ sidebar_position: 12
 This guide has screenshots and text used by the [**PsyOptions DAO**](https://twitter.com/PsyOptions) on their docs explanation about VSR, for any additional help or in-depth questions visit our [**Discord**](https:discord.gg/6UZHcNJFr8)!
 :::
 
+## What is VSR?
+
+VSR is a governance plugin implementing the veToken semantics. If a DAO uses the plugin (or any other plugin) then there are additional plugin instructions required to vote on a proposal.
+
 By establishing a **Voter Stake Registry** for your **DAO** in [**Realms**](https://realms.today/), you can empower contributors, investors, and advisors to engage in governance while their tokens are in the vesting process. This not only fosters alignment and active participation in the **DAO**, but also ensures that every action is traceable on the chain!
 
 :::info Youtube Video
@@ -45,10 +49,10 @@ Remaining accounts must be all the token mints that have registered as voting mi
 ### Step 2 -  ConfigureVotingMint Parameters
 
 * **idx:** index of the rate to be set. There is an array of `VotingMintConfig`s, and the idx references the index that the corresponding config is or should be placed. When adding a new one it should be the next index.
-* **digit\_shift:** The amount of digits to shift the native token amount.
-* **baseline\_vote\_weight\_scaled\_factor:** vote weight factor for all funds in vault, in 1/1e9 units. So 1e9 means 1!
-* **max\_extra\_lockup\_vote\_weight\_scaled\_factor:** max extra weight for lockups, in 1/1e9 units. So 1e9 means no matter how long a lock up period is the voting weight can never exceed this factor.
-* **lockup\_saturation\_secs:** lockup duration at which the full vote weight bonus is given to locked up deposits. This is a factor that dampens the lock up vote power boost until this has passed. If this max boost power is 1e9 (factoring in the scale factor it's 1), then this value does not matter.
+* **digit\_shift:** the amount of digits to shift the native token amount. If set to positive number, the base is shifted to left. E.g. if set to then 100 tokens will give 1000 voting power. If set to -1 then 100 voting power will become 10.
+* **baseline\_vote\_weight\_scaled\_factor:** this simply means how much voting power will the user receive for simply depositing the tokens. Let's say, if set at 1. The user will receive 1 vote for every token deposited. If you don't wanna give voting power to users for simply depositing the tokens, you can set it to 0. Vote weight factor for all funds in vault, in 1/1e9 units. So 1e9 means 1!
+* **max\_extra\_lockup\_vote\_weight\_scaled\_factor:** this is the max voting power a user will receive for locking the tokens. Let' say, if set to 2, a user will receive 2x the deposited tokens if they lock it for the max duration. Max extra weight for lockups, in 1/1e9 units. So 1e9 means no matter how long a lock up period is the voting weight can never exceed this factor.
+* **lockup\_saturation\_secs:** this is the duration for which the user has to keep the tokens locked to receive the voting power. A user can lock tokens for lesser period and will receive proportionate tokens. This is a factor that dampens the lock up vote power boost until this has passed. If this max boost power is 1e9 (factoring in the scale factor it's 1), then this value does not matter.
 * **grant\_authority:** The authority that can grant the additional vote weight. This should be a governance authority.
 
 :::info
