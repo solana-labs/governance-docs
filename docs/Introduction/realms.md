@@ -15,7 +15,7 @@ Realms is built on top of [**SPL Governance**](https://github.com/solana-labs/so
 
 ## Audited by OtterSec
 
-📎 [Download File](https://cdn.discordapp.com/attachments/910200525256011856/1163903900068368475/spl_governance_v3.pdf?ex=654a7f7a&is=65380a7a&hm=f05f8d0817489fae56628ea496b5b5b393795422a5747957024ee1c13004e914&)
+📎 [Download File](https://cdn.discordapp.com/attachments/1093494070409699359/1243578164077400164/spl_governance_v3.pdf?ex=667ada6a&is=667988ea&hm=29dae3f5c5b918f029636bb1adb896b5eb53e13013921d25830bf068e720ccab&)
 
 ## Links & Resources
 
