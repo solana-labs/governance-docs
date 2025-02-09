@@ -1,3 +1,8 @@
+# governance-docs
+
+This repo still exists in archived form, but the maintained version has now relocated to: https://github.com/Mythic-Project/realms-doc
+
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
